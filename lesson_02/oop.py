@@ -12,6 +12,9 @@ class Price:
     # TODO: Complete this class
 
 
+# Another line
+
+
 # phone = 1000 USD
 # food = 100 UAH
 # total = phone + food

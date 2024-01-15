@@ -4,11 +4,16 @@ class Person:
         self.age = age
 
 
-class Food:
-    currency = "UAH"
-    value = 100
+class Price:
+    def __init__(self, currency, value) -> None:
+        self.currency = currency
+        self.value = value
 
+    # TODO: Complete this class
 
-class Phone:
-    currency = "USD"
-    value = 1000
+# phone = 1000 USD
+# food = 100 UAH
+# total = phone + food
+
+# 1000 + (100 / 39) = 1000 + 2.56410256 USD
+# 1000 * 39 + 100 = ...

@@ -1,7 +1,7 @@
 class Person:
-    def __init__(self, name, age) -> None:
-        self.name = name
-        self.age = age
+    def __init__(self, name: str, age: int) -> None:
+        self.name: str = name
+        self.age: int = age
 
 
 class Price:
@@ -10,6 +10,7 @@ class Price:
         self.value = value
 
     # TODO: Complete this class
+
 
 # phone = 1000 USD
 # food = 100 UAH

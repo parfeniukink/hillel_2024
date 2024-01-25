@@ -1,5 +1,5 @@
-class Product(object):
-    def __new__(cls, *args, **kwargs):
+class Product:
+    def __new__(cls, *qweqwe, **asdasdasd):
         # class_ = type(Product, (), {})
         # return class_()
         instance = super().__new__(cls)

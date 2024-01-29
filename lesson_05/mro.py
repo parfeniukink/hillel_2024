@@ -5,8 +5,8 @@
 # flat => str, bytes
 # container => list[[], ()]
 
-import string
 import random
+import string
 
 
 class Product:
@@ -52,7 +52,8 @@ class Delivery(PdfGenerator):
 
 
 class TeslaFacility(Factory, Delivery, Legals):
-    pass
+    def create_order_documnet(self):
+        return super().create_order_documnet()
 
 
 class IntelFacility(Factory, Legals, Delivery):

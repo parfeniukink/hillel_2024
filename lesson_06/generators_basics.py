@@ -13,6 +13,7 @@ iterator: Iterator = iter(team)
 #     yield 15
 
 
+
 def my_range(num: int) -> Generator[int, None, None]:
     returned_value = 0
     while num > returned_value:

@@ -6,4 +6,4 @@
 - [x] MRO
 - [x] Context managers
 - [x] Files
-- [ ] `__new__`, `__init__`
+- [x] `__new__`, `__init__`

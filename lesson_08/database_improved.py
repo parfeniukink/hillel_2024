@@ -43,5 +43,5 @@ def update(id_: int, instance: dict, debug: bool = False) -> dict:
 
 
 def delete(id_: int, debug: bool = False):
-    player: dict = get(id_=id_)
+    player: dict = get(id_=id_)  # noqa: F841
     del _TEAM[id_]

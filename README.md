@@ -7,3 +7,4 @@
 - [x] Context managers
 - [x] Files
 - [x] `__new__`, `__init__`
+- [ ] `@property`

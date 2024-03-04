@@ -24,6 +24,8 @@ async def main():
     tasks = [bar(), foo()]
     # await asyncio.gather(bar(), foo())
     results = await asyncio.gather(*tasks)
+    # asyncio.create_task(bar())
+    # asyncio.create_task(foo())
     print(results)
 
 

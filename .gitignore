@@ -1,4 +1,6 @@
-.idea
-venv
+.idea/
+.vscode/
+venv/
+__pycache__/
+
 rockyou.txt
-__pycache__

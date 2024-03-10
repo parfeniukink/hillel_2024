@@ -2,5 +2,6 @@
 .vscode/
 venv/
 __pycache__/
+.DS_Store
 
 rockyou.txt
